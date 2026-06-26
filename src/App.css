@@ -1,0 +1,23 @@
+.app {
+  min-height: 100vh;
+  background-color: #000;
+  color:rgb(182, 74, 236);
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.header{
+  color: rgb(182, 74, 236);
+}
